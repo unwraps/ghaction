@@ -10,3 +10,8 @@ test('getDay returns the month of the year', () => {
     const month = monthOfTheYear( new Date('3/11/2020') );
     expect( month ).toBe('March');
 });
+
+test('getDay returns the month of the year', () => {
+    const month = monthOfTheYear( new Date('3/11/2020') );
+    expect( month ).toBe('March');
+});
